@@ -32,7 +32,5 @@ if st.button("Analyze"):
         st.subheader("Summary")
         st.write(result["summary"])
 
-        st.json(result)
-
     else:
         st.warning("Please enter a post.")
